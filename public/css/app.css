@@ -10928,3 +10928,23 @@ a.text-dark:focus {
   }
 }
 
+html,
+body {
+  height: 100% !important;
+  padding: 0;
+}
+
+.bg {
+  background: url("/storage/moscow-city.jpg") no-repeat;
+  background-size: cover;
+}
+
+.bg-light {
+  background-color: #f8fafc !important;
+}
+
+.btn-primary {
+  background-color: #0057B6;
+  border-color: #0057B6;
+}
+
