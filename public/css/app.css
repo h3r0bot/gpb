@@ -10935,6 +10935,63 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none !important;
+  color: #1b1e21;
+}
+
+a:link p h4 {
+  text-decoration: none !important;
+  color: #1b1e21;
+}
+
+a:visited p h4 {
+  text-decoration: none !important;
+  color: #1b1e21;
+}
+
+a:active p h4 {
+  text-decoration: none !important;
+  color: #1b1e21;
+}
+
+a:hover p h4 {
+  text-decoration: none !important;
+  color: #1b1e21 !important;
+}
+
+h4.font-weight-bold {
+  color: #1b1e21 !important;
+}
+
+p {
+  color: #1b1e21 !important;
+}
+
+span.font-weight-bold {
+  color: #0057B6 !important;
+}
+
+.col-2 i {
+  color: #0057B6;
+}
+
+button i {
+  color: #0057B6;
+}
+
+.badge-primary {
+  background: #0057B6 !important;
+}
+
+.btn-outline-light {
+  border-color: #0057B6 !important;
+}
+
+.progress-bar {
+  background: #0057B6 !important;
+}
+
 .bg {
   background: url("/storage/moscow-city.jpg") no-repeat;
   background-size: cover;

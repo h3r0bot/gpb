@@ -1,6 +1,6 @@
 @section('nav')
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-        <div class="container">
+        <div class="container p-0">
             <a class="navbar-brand" href="{{ url('/') }}">
                 <img src="{{ asset('storage/logo.png') }}" width="163" height="34" alt="" loading="lazy">
             </a>
@@ -27,7 +27,7 @@
                                  loading="lazy">
                         </li>
                         <li class="nav-item dropdown">
-                            <strong class="small">Привет!</strong>
+                            <strong class="small font-weight-bold">Привет!</strong>
                             <a id="navbarDropdown" class="nav-link dropdown-toggle p-0 small" href="#" role="button"
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                 {{ Auth::user()->name }} <span class="caret"></span>

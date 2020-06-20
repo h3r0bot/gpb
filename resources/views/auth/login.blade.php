@@ -27,11 +27,13 @@
                             </div>
                             <div class="form-group">
                                 <label class="text-muted" for="password">
-                                    {{ __('ПАРОЛЬ') }}
+                                    <span class="d-inline">{{ __('ПАРОЛЬ') }}</span>
                                     @if (Route::has('password.request'))
-                                        <a class="btn btn-link pr-0 text-muted" href="{{ route('password.request') }}">
-                                            {{ __('Забыли пароль?') }}
-                                        </a>
+                                        <span class="text-right">
+                                            <a class="btn btn-link pr-0 text-muted d-inline" href="{{ route('password.request') }}">
+                                                {{ __('Забыли пароль?') }}
+                                            </a>
+                                        </span>
                                     @endif
                                 </label>
                                 <input id="password" type="password"
