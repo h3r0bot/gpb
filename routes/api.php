@@ -17,3 +17,15 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+/*
+|--------------------------------------------------------------------------
+| API Routes Tasks
+|--------------------------------------------------------------------------
+*/
+
+Route::post('register', 'API\RegisterController@register');
+
+Route::middleware('auth:api')->group(function () {
+    Route::resource('tasks', 'API\ProductController');
+});

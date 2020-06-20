@@ -25,3 +25,15 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::middleware('auth:api')->get('/app-home', function (Request $request) {
     return $request->user();
 });
+
+/*
+|--------------------------------------------------------------------------
+| API Routes Tasks
+|--------------------------------------------------------------------------
+*/
+
+Route::post('register', 'API\RegisterController@register');
+
+Route::middleware('auth:api')->group(function () {
+    Route::resource('tasks', 'API\ProductController');
+});

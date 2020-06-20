@@ -3,12 +3,12 @@
 @section('content')
     <div class="container-fluid p-0 h-100 d-flex flex-column">
         <div class="row m-0 h-100">
-            <div class="col-md-6 p-0 m-0">
+            <div class="col-md-4 p-0 m-0">
                 <nav class="navbar position-absolute navbar-light bg-light p-5">
                     <img src="{{ asset('storage/logo.png') }}" width="163" height="34" alt="" loading="lazy">
                 </nav>
                 <div class="row justify-content-center p-0 m-0 h-100">
-                    <div class="col-md-6 align-self-center">
+                    <div class="col-md-8 align-self-center">
                         <form method="POST" action="{{ route('login') }}">
                             <div class="text-center mb-5">
                                 <h1>Добро пожаловать<br>в команду!</h1>
@@ -52,7 +52,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 p-0 m-0 bg"></div>
+            <div class="col-md-8 p-0 m-0 bg"></div>
         </div>
     </div>
 @endsection
