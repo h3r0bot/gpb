@@ -58,12 +58,26 @@ button i {
     color: #0057B6;
 }
 
+.autocomplete {
+    color: #ffffff;
+}
+
+.h5-white {
+    color: #ffffff !important;
+}
+
 .badge-primary {
     background: #0057B6 !important;
 }
 
+.gradient-card {
+    background-image: linear-gradient(to right top, #5960ea, #455fde, #315dd1, #1c5ac4, #0057b6);
+}
+
 .btn-outline-light {
     border-color: #0057B6 !important;
+    background-color: #ffffff !important;
+    color: #0057B6 !important;
 }
 
 .progress-bar {

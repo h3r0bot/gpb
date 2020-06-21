@@ -6,28 +6,51 @@
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <div class="row">
+                <div class="row mb-0">
                     <div class="col-md-6 p-0">
-                        <h5 class="font-weight-bold">Задачи</h5>
+                        <h5 class="font-weight-bold m-0">Задачи</h5>
                     </div>
                     <div class="col-md-6 p-0">
-                        <p class="text-right">
+                        <p class="text-right m-0">
                             <a class="p-0" data-toggle="collapse" href="#collapseExample" role="button"
                                aria-expanded="false" aria-controls="collapseExample">
                                 <span class="font-weight-bold"><i class="fas fa-plus-circle"></i> Добавить</span>
                             </a>
                         </p>
                     </div>
-                    <div class="row">
-                        <dic class="col-md-12 mb-3">
-                            <div class="collapse" id="collapseExample">
-                                <div class="card card-body rounded-lg">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
-                                    cred nesciunt sapiente ea proident.
-                                </div>
+                    <div class="col-md-12 mb-3 p-0">
+                        <div class="collapse multi-collapse mt-3" id="collapseExample">
+                            <div class="card card-body rounded-lg input-group-prepend gradient-card">
+                                <h5 class="font-weight-bold h5-white">Сила волка в стае, сила стаи в волке!</h5>
+                                <form action="" class="m-0">
+                                    <div class="form-group mb-2">
+                                        <input type="text" class="form-control form-control-sm"
+                                               placeholder="Введите заголовок">
+                                    </div>
+                                    <div class="form-group mb-2">
+                                        <input type="text" class="form-control form-control-sm"
+                                               placeholder="Введите текст">
+                                    </div>
+                                    <div class="form-group mb-2">
+
+                                        <div class="autocomplete">
+                                            <input id="myInput" type="text" name="myCountry" class="form-control form-control-sm" placeholder="Отметье департамент, отдел или людей @">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="col-2 p-0 mr-1">
+                                            <input type="date" class="form-control form-control-sm">
+                                        </div>
+                                        <div class="col-2 p-0 mr-1">
+                                            <input type="datetime-local" class="form-control form-control-sm">
+                                        </div>
+                                        <div class="flex-fill text-right align-self-center">
+                                            <button type="button" class="btn btn-outline-light btn-sm font-weight-bold">Опубликовать</button>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                        </dic>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
