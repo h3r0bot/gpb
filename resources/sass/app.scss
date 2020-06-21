@@ -7,7 +7,14 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-html, body {
+html {
+    min-width: 770px !important;
+    height: 100% !important;
+    padding: 0;
+    overflow: scroll;
+}
+
+body {
     min-width: 770px !important;
     height: 100% !important;
     padding: 0;
